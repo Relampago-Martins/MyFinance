@@ -7,6 +7,7 @@ import { Toaster } from '@/shared/ui/toaster';
 import { Analytics } from '@vercel/analytics/react';
 import type { Metadata } from 'next';
 import '../globals.css';
+<link rel="icon" type="image/png" href="favicon.ico" sizes="48x48" />;
 
 export const metadata: Metadata = {
     title: 'Pharus',
@@ -19,7 +20,7 @@ export default function RootLayout({
     children: React.ReactNode;
 }) {
     return (
-        <html lang="en">
+        <html lang="pt">
             <head>
                 <meta charSet="UTF-8" />
                 <meta
